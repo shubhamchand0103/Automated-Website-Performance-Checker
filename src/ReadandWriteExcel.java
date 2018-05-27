@@ -23,8 +23,9 @@ public static void main(String []args){
 
 
 wb = new XSSFWorkbook(fis);
-
+wb.createSheet();
 XSSFSheet sh1= wb.getSheetAt(0);
+XSSFSheet sh2 = wb.getSheetAt(1);
 // getRow specify which row we want to read and getCell which column
 
 System.out.println(sh1.getRow(0).getCell(0).getStringCellValue());
