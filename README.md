@@ -9,7 +9,7 @@
 >> Download and unzip Apache POI jar from https://www.apache.org/dyn/closer.lua/poi/release/bin/poi-bin-3.17-20170915.zip
 >> Import jar to your project build path
 
->> Download and unzip chrome driver
+>> Download and unzip chrome driver exe file from https://chromedriver.storage.googleapis.com/index.html?path=2.38/
 >> provide the path of the chrome driver to the variable chromeWeDriverLocation in src/ConnectAndAutomate.java
 
 4. Change the username and password for log in in src/ConnectAndAutomate.java.
