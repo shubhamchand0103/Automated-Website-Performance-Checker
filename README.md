@@ -1,11 +1,18 @@
 # MSBS-Developer-Task
+1. Open the project in Eclipse IDE
 
-Dependency Selenium and Apache POI
+2.Resolve Dependencies (Selenium and Apache POI and selenium chrome driver)
 
-1. Import the project in Eclipse
-2. Download and import selenium Jars and Apache POI jars
-3. Download Chrome Driver for selenium and set the path in main function
-4. Change the file path locations
-5. Change the username and password for log in.
-6. Execute the program 
-7. Check the result in Results.xls file in Excel/ 
+>> Download and unzip selenium jar from https://www.seleniumhq.org/download/
+>> Import jar to your project build path
+
+>> Download and unzip Apache POI jar from https://www.apache.org/dyn/closer.lua/poi/release/bin/poi-bin-3.17-20170915.zip
+>> Import jar to your project build path
+
+>> Download and unzip chrome driver
+>> provide the path of the chrome driver to the variable chromeWeDriverLocation in src/ConnectAndAutomate.java
+
+4. Change the username and password for log in in src/ConnectAndAutomate.java.
+5. Execute the program 
+6. Wait for the program to execute successfully.
+7. Check the result in Excel/Results.xlsx
