@@ -1,7 +1,7 @@
 # MSBS-Developer-Task
 1. Open the project in Eclipse IDE
 
-2.Resolve Dependencies (Selenium and Apache POI and selenium chrome driver)
+2. Resolve Dependencies (Selenium and Apache POI and selenium chrome driver)
 
 >> Download and unzip selenium jar from https://www.seleniumhq.org/download/
 >> Import jar to your project build path
