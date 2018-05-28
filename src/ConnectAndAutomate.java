@@ -73,26 +73,8 @@ public class ConnectAndAutomate {
 				break;
 			}
 		}
-		/*
-		try {
-	        // Create a URL for the desired page
-			String u = driver.getCurrentUrl();
-	        URL url = new URL(u);       
-
-	        // Read all the text returned by the server
-	        BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
-	        String str;
-	        while ((str = in.readLine()) != null) {
-	            str = in.readLine().toString();
-	            
-	            System.out.println(str);
-	            // str is one line of text; readLine() strips the newline character(s)
-	        }
-	        in.close();
-	    } catch (MalformedURLException e) {
-	    } catch (IOException e) {
-	    }*/
-		pageSpeed = driver.findElement(By.xpath("//span[@class='report-score-percent']")).getText();
+		
+	    pageSpeed = driver.findElement(By.xpath("//span[@class='report-score-percent']")).getText();
 	    loadTime =  driver.findElement(By.xpath("//*[@class='report-page-detail']/.//span[contains(@class,'report-page-detail-value')]")).getAttribute("innerHTML");
 	    pageSize = driver.findElement(By.xpath("//*[@class='report-page-detail report-page-detail-size']/.//span[contains(@class,'report-page-detail-value')]")).getAttribute("innerHTML");
 	    requests = driver.findElement(By.xpath("//*[@class='report-page-detail report-page-detail-requests']/.//span[contains(@class,'report-page-detail-value')]")).getAttribute("innerHTML");
